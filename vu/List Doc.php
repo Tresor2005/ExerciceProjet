@@ -256,38 +256,44 @@
         <div class="bd-example-snippet bd-code-snippet">
   <div class="bd-example m-0 border-0">
     
-        <form class="row g-3">
-          <div class="col-md-6">
-            <label for="validationServer01" class="form-label">Document Name*</label>
-            <input type="text" class="form-control" required>
-          </div>
-
-          <div class="col-6">
-            <label for="validationServer01" class="form-label">File Name*</label><br>
-            <input type="file"><br>
-          on a un peu tricher
-          </div>
-         
-          <div class="col-md-6">
-            <label for="validationServer01" class="form-label">Publish Date*</label>
-            <input type="text" class="form-control" required>
-          </div>
-         
-          <div class="col-md-6">
-            <label for="validationServer01" class="form-label">Expiration Date</label>
-            <input type="text" class="form-control" required>
-          </div>
-
-          <div class="col-md-6">
-            <label for="validationServer01" class="form-label">Description</label>
-            <textarea  id="" cols="50" rows="2"  class="form-control"></textarea>
-          </div>
-     
-
-          <div>
-<a href="List Doc.php"><button type="button" class="btn btn-warning">Save</button></a>
-<button type="button" class="btn btn-secondary">Cancel</button>
+        <table class="table table-striped">
+          <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Documents Name</th>
+            <th scope="col">File name</th>
+            <th scope="col">Action</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td><a href="Dashboard.php"> <button type="button" class="btn btn-success">Edit</button></a></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td><a href="Dashboard.php"> <button type="button" class="btn btn-success">Edit</button></a></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td><a href="Dashboard.php"> <button type="button" class="btn btn-success">Edit</button></a></td>
+          </tr>
+          </tbody>
+        </table>
+        <a href="Dashboard.php"><button type="button" class="btn btn-outline-primary">Add Document</button></a>
+  </div>
 </div>
+
+
+       
+
+      </div>
+
 
 
          
