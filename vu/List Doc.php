@@ -270,18 +270,18 @@
             <th scope="row">1</th>
             <td>Mark</td>
             <td>Otto</td>
-            <td><a href="Dashboard.php"> <button type="button" class="btn btn-success">Edit</button></a></td>
+            <td><a href="Dashboard.php"> <button type="button" class="btn btn-success">Edit</button></a> or <button type="button" class="btn btn-outline-danger">Delete</button></td></td>
           </tr>
           <tr>
             <th scope="row">2</th>
             <td>Jacob</td>
             <td>Thornton</td>
-            <td><a href="Dashboard.php"> <button type="button" class="btn btn-success">Edit</button></a></td>
+            <td><a href="Dashboard.php"> <button type="button" class="btn btn-success">Edit</button></a> or <button type="button" class="btn btn-outline-danger">Delete</button></td>
           </tr>
           <tr>
             <th scope="row">3</th>
             <td colspan="2">Larry the Bird</td>
-            <td><a href="Dashboard.php"> <button type="button" class="btn btn-success">Edit</button></a></td>
+            <td><a href="Dashboard.php"> <button type="button" class="btn btn-success">Edit</button></a> or <button type="button" class="btn btn-outline-danger">Delete</button></td></td>
           </tr>
           </tbody>
         </table>
